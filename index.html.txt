@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<TITLE>S</TITLE>
+<link rel="stylesheet" href="stylesheet8.css">
+</HEAD>
+<body>
+<div class="game-container">
+        <h1>Гра: В кого більше число</h1>
+        <div id="player-name">
+            <label for="name">Введіть ваше ім'я: </label>
+            <input type="text" id="name" placeholder="Ваше ім'я" required></br>
+            </br><button id="start-game">Почати гру</button>
+        </div>
+        <div id="game" class="hidden">
+            <p>Рахунок: <span id="score">0</span></p>
+            <p>Ваше число: <span id="player-number">0</span></p>
+            <p>Число комп'ютера: <span id="computer-number">0</span></p>
+            <p id="round-result"></p>
+            <button id="next-round">Наступний раунд</button>
+        </div>
+        <div id="winner" class="hidden">
+            <h2 id="winner-message"></h2>
+            <button id="restart-game">Перезапустити гру</button>
+        </div>
+    </div>
+
+    <script src="script8.js"></script>
+</body>
+</HTML>
